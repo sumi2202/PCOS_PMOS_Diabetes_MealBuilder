@@ -32,3 +32,36 @@ body {
   border: none;
   cursor: pointer
 }
+
+.OptionContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.ButtonOptions{
+  text-align: center;
+  padding: 40px;
+  margin: 40px;
+  background-color: var(--red-ochre);
+  border-radius: 40px;
+}
+
+.loginOpt{
+  background-color: var(--light-bronze);
+  padding: 8px, 16px;
+  margin: 3px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer
+}
+
+.registerOpt{
+  background-color: var(--light-bronze);
+  padding: 8px, 16px;
+  margin: 3px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer
+}
